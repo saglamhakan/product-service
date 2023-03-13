@@ -117,8 +117,6 @@ public class ProductController {
             .payload(productResponse)
             .build();
 
-
-
 }
 
     private List<ProductResponse> convertProductResponseList(List<Product> productList) {
